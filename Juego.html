@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parejas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <a id="btnModal" data-toggle="modal" data-target="#modal1"></a>
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+            <div class="modal-content" style="text-align: center;">
+                <div class="modal-body">
+                    <div id="encabesado"></div>
+                    <div id="cuerpo"></div>
+                    <label></label>
+                    <div id="pie">
+                        <button type="button" class="btn btn-primary" onclick="javascript:window.location.reload();">Reintentar</button>
+                        <a class="btn btn-primary" role="button" href="index.html">Inicio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="escenario">
+        <div id="base_juego">
+
+            <div class="casilla" id="c1" onclick="jugar(1)">
+                <div class="casilla2" id="carta1"></div>
+            </div>
+            <div class="casilla" id="c2" onclick="jugar(2)">
+                <div class="casilla2" id="carta2"></div>
+            </div>
+            <div class="casilla" id="c3" onclick="jugar(3)">
+                <div class="casilla2" id="carta3"></div>
+            </div>
+            <div class="casilla" id="c4" onclick="jugar(4)">
+                <div class="casilla2" id="carta4"></div>
+            </div>
+            <div class="casilla" id="c5" onclick="jugar(5)">
+                <div class="casilla2" id="carta5"></div>
+            </div>
+            <div class="casilla" id="c6" onclick="jugar(6)">
+                <div class="casilla2" id="carta6"></div>
+            </div>
+            <div class="casilla" id="c7" onclick="jugar(7)">
+                <div class="casilla2" id="carta7"></div>
+            </div>
+            <div class="casilla" id="c8" onclick="jugar(8)">
+                <div class="casilla2" id="carta8"></div>
+            </div>
+            <div class="casilla" id="c9" onclick="jugar(9)">
+                <div class="casilla2" id="carta9"></div>
+            </div>
+            <div class="casilla" id="c10" onclick="jugar(10)">
+                <div class="casilla2" id="carta10"></div>
+            </div>
+            <div class="casilla" id="c11" onclick="jugar(11)">
+                <div class="casilla2" id="carta11"></div>
+            </div>
+            <div class="casilla" id="c12" onclick="jugar(12)">
+                <div class="casilla2" id="carta12"></div>
+            </div>
+            <div class="casilla" id="c13" onclick="jugar(13)">
+                <div class="casilla2" id="carta13"></div>
+            </div>
+            <div class="casilla" id="c14" onclick="jugar(14)">
+                <div class="casilla2" id="carta14"></div>
+            </div>
+            <div class="casilla" id="c15" onclick="jugar(15)">
+                <div class="casilla2" id="carta15"></div>
+            </div>
+            <div class="casilla" id="c16" onclick="jugar(16)">
+                <div class="casilla2" id="carta16"></div>
+            </div>
+            <div class="casilla" id="c17" onclick="jugar(17)">
+                <div class="casilla2" id="carta17"></div>
+            </div>
+            <div class="casilla" id="c18" onclick="jugar(18)">
+                <div class="casilla2" id="carta18"></div>
+            </div>
+            <div class="casilla" id="c19" onclick="jugar(19)">
+                <div class="casilla2" id="carta19"></div>
+            </div>
+            <div class="casilla" id="c20" onclick="jugar(20)">
+                <div class="casilla2" id="carta20"></div>
+            </div>
+
+        </div>
+    
+
+        <div id="resultados">
+            <div id="fallos">
+                <a id="text">Fallos: 0/8</a>
+            </div>
+            <div id="reloj">
+                <a id='text'>Tiempo restante: 60</a>
+            </div>
+            <div id="aciertos">
+                <label id="text">Progreso</label>
+                <div id="aciertos2">
+                <div id="progreso"></div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="js/funciones.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

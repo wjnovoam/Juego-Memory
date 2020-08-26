@@ -1,0 +1,124 @@
+body{
+    background-image: url(../img/fondo_inicio2.jpg);
+    margin: 0px;
+}
+
+
+#base_juego {
+    background-color: rgb(3, 8, 43);
+    background-size: 100% 100%;
+    width: 770px;
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    margin-left: -330px;
+
+    border: 10px solid rgb(3, 8, 43); ;
+}
+
+#resultados{
+    background-color:rgb(3, 8, 43); ;
+    width: auto;
+    height: auto;
+    left: 20px;
+    top: 25px;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.casilla {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+    background-size: 100% 100%;
+
+    float: left;
+    margin: 10px;
+
+}
+
+.casilla:hover {
+    transform: scale(1.03);
+}
+
+.casilla2 {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+    background-size: 100% 100%;
+
+    
+}
+
+.casilla2:hover {
+    transform: scale(1.03);
+}
+
+
+#text{
+    text-align: left;
+    color: white;
+
+}
+
+#reloj{
+    width: 220px;
+    height: 30px;
+    margin: 5px ;
+}
+
+#fallos{
+    width: 220px;
+    height: 30px;
+    margin: 5px;
+}
+
+#aciertos{
+    width: 220px;
+    height: 80px;
+    margin: 5px;
+}
+
+#aciertos2{
+    width: 208px;
+    height: 38px;
+    border: 4px solid rgb(102, 1, 1);
+    border-radius: 18px;
+    margin-left: 5px;
+}
+
+#progreso{
+    background-color: rgb(214, 6, 6);
+    width: 0px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+label{
+    margin: 5px;
+}
+
+
+
+.img{
+    width: 60px;
+    height: 60px;
+    background-size: 100% 100%;
+    position: relative;
+    float: none;
+    margin: 2px;
+    opacity: 0;
+
+    animation-name: animacion_img;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes animacion_img{
+    100%{
+        opacity: 1;
+    }
+}
